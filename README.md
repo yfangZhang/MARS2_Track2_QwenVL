@@ -52,8 +52,8 @@ Input JSON:
 
 ## 🚀 Features
 
-* 🔹 **Supports InternVL 2B / 9B / 14B / 38B**
-* 🔹 **Flexible image resolution experiments**
+* 🔹 **Supports InternVL3 2B / 9B / 14B / 38B**
+* 🔹 **Flexible image resolution experiments:[448, 640, 960, 1280, 1600]**
 * 🔹 **Human–object spatial reasoning** (direction, distance)
 * 🔹 **Extensible JSON format for questions**
 * 🔹 **Reproducible benchmarking pipeline**
