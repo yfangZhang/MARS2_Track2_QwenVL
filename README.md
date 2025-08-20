@@ -53,7 +53,7 @@ Input JSON:
 ## 🚀 Features
 
 * 🔹 **Supports QwenVL2.5 3B / 7B / 32B**
-* 🔹 **Flexible image resolution experiments:[644*644,980*980,1288*1288,1624*1624]**
+* 🔹 **Flexible image resolution experiments:[644x644,980x980,1288x1288,1624x1624]**
 * 🔹 **Human–object spatial reasoning** (direction, distance)
 * 🔹 **Extensible JSON format for questions**
 * 🔹 **Reproducible benchmarking pipeline**
