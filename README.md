@@ -11,7 +11,7 @@
 ## 📖 Introduction
 
 This repository reproduces and extends experiments on **Visual Question Answering with Spatial Awareness (VQA-SA)**.
-We evaluate **InternVL (2B, 9B, 14B, 38B)** under different image resolutions to test models’ abilities in:
+We evaluate **InternVL3 (2B, 9B, 14B, 38B)** under different image resolutions to test models’ abilities in:
 
 ✨ **Spatial reasoning** – relative positions between entities
 🧠 **Commonsense reasoning** – contextual understanding
@@ -93,13 +93,13 @@ pip install -r requirements.txt
 
 ```bash
 python run_vqa.py
----
+```
 
 
 ## 🌟 Acknowledgements
 
 * [InternVL](https://github.com/OpenGVLab/InternVL) – pretrained multimodal LLMs
-* [ICCV Multimodal Reasoning Competition](https://iccv2023.thecvf.com/) – benchmark inspiration
+* [ICCV Multimodal Reasoning Competition](https://lens4mllms.github.io/mars2-workshop-iccv2025/) – benchmark inspiration
 
 ---
 
@@ -107,8 +107,3 @@ python run_vqa.py
 
 This project is released under the **MIT License**.
 
-* 输入图片（左边）
-* 问题（中间）
-* 模型回答（右边）
-
-会不会想要这种 “一图流对比”的展示方式？
