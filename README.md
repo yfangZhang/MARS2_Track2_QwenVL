@@ -1,7 +1,7 @@
-# 🌌 Multimodal Reasoning with InternVL
+# 🌌 Multimodal Reasoning with QwenVL
 
 <p align="center">  
-  <img src="https://img.shields.io/badge/Model-InternVL-blueviolet?style=for-the-badge"/>  
+  <img src="https://img.shields.io/badge/Model-QwenVL-blueviolet?style=for-the-badge"/>  
   <img src="https://img.shields.io/badge/Task-VQA--SA-green?style=for-the-badge"/>  
   <img src="https://img.shields.io/badge/Competition-ICCV%20Multimodal%20Reasoning-orange?style=for-the-badge"/>  
 </p>  
@@ -11,7 +11,7 @@
 ## 📖 Introduction
 
 This repository reproduces and extends experiments on **Visual Question Answering with Spatial Awareness (VQA-SA)**.
-We evaluate **InternVL3 (2B, 9B, 14B, 38B)** under different image resolutions to test models’ abilities in:
+We evaluate **QwenVL2.5 (3B, 7B, 32B)** under different image resolutions to test models’ abilities in:
 
 - ✨ **Spatial reasoning** – relative positions between entities  
 - 🧠 **Commonsense reasoning** – contextual understanding  
@@ -52,8 +52,8 @@ Input JSON:
 
 ## 🚀 Features
 
-* 🔹 **Supports InternVL3 2B / 9B / 14B / 38B**
-* 🔹 **Flexible image resolution experiments:[448, 640, 960, 1280, 1600]**
+* 🔹 **Supports QwenVL3 3B / 7B / 32B**
+* 🔹 **Flexible image resolution experiments:[640, 960, 1280, 1600]**
 * 🔹 **Human–object spatial reasoning** (direction, distance)
 * 🔹 **Extensible JSON format for questions**
 * 🔹 **Reproducible benchmarking pipeline**
@@ -98,7 +98,7 @@ python run_vqa.py
 
 ## 🌟 Acknowledgements
 
-* [InternVL](https://github.com/OpenGVLab/InternVL) – pretrained multimodal LLMs
+* [QwenVL](https://github.com/QwenLM/Qwen2.5-VL) – pretrained multimodal LLMs
 * [ICCV Multimodal Reasoning Competition](https://lens4mllms.github.io/mars2-workshop-iccv2025/) – benchmark inspiration
 
 ---
