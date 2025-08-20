@@ -13,9 +13,9 @@
 This repository reproduces and extends experiments on **Visual Question Answering with Spatial Awareness (VQA-SA)**.
 We evaluate **InternVL3 (2B, 9B, 14B, 38B)** under different image resolutions to test models’ abilities in:
 
-✨ **Spatial reasoning** – relative positions between entities
-🧠 **Commonsense reasoning** – contextual understanding
-🔮 **Counterfactual reasoning** – “what-if” scenarios
+- ✨ **Spatial reasoning** – relative positions between entities  
+- 🧠 **Commonsense reasoning** – contextual understanding  
+- 🔮 **Counterfactual reasoning** – “what-if”
 
 Inspired by the **ICCV Multimodal Reasoning Competition**, this work explores how multimodal LLMs perceive physical space.
 
